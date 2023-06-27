@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkshida_ui_demo=self.webpackChunkshida_ui_demo||[]).push([[448],{65149:function(f,n,e){e.r(n),e.d(n,{default:function(){return u}});var a=e(25170),o=e(67294),t=function(){var m=(0,a.UO)(),r=m.id,s=(0,a.WF)(),i=s.demos,c=i[r]||{},d=c.component;return d&&(0,o.createElement)(d)},u=t}}]);

@@ -1,0 +1,74 @@
+{
+  "menus": {
+    "en-US": {
+      "/src": [
+        {
+          "title": "组件列表",
+          "meta": {
+            "order": 1,
+            "__fallback": true
+          },
+          "children": [
+            {
+              "path": "/src/alert",
+              "title": "Alert 警告组件",
+              "meta": {}
+            }
+          ]
+        }
+      ],
+      "/getting-started": [
+        {
+          "path": "/getting-started",
+          "title": "快速上手",
+          "meta": {}
+        }
+      ],
+      "/help": [
+        {
+          "path": "/help",
+          "title": "帮助",
+          "meta": {}
+        }
+      ],
+      "*": [
+        {
+          "path": "/",
+          "title": "SHIDA UI",
+          "meta": {}
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {
+    "en-US": [
+      {
+        "title": "快速上手",
+        "order": 1,
+        "path": "/getting-started"
+      },
+      {
+        "title": "组件",
+        "path": "/src"
+      },
+      {
+        "title": "帮助",
+        "path": "/help"
+      }
+    ]
+  },
+  "title": "SHIDA UI",
+  "mode": "site",
+  "repository": {
+    "url": "",
+    "branch": "master"
+  },
+  "theme": {},
+  "exportStatic": {}
+}

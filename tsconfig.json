@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "target": "esnext",  // 目标语言以内
+        "module": "commonjs", // 打包成commonjs形式
+        "jsx": "react",
+        "declaration": true, // 生成相应的.d.ts文件
+        "declarationDir": "lib", // 生成.d.ts文件的路径 
+        "strict": true, // 是否开启严格模式
+        "moduleResolution": "node", // 决定如何处理模块
+        "allowSyntheticDefaultImports": true, // 允许从没有设置默认导出的模块中默认导入。这并不影响代码的输出，仅为了类型检查。
+        "esModuleInterop": true, 
+        "resolveJsonModule": true, // 
+        "skipLibCheck": true, // 忽略所有的声明文件（ *.d.ts）的类型检查。
+    },
+    "include": ["src"], // 包含的文件
+    "exclude": [
+        "node_modules", // 排除的文件
+        "lib", "esm", "dist", "typings"
+    ]
+}

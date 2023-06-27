@@ -1,0 +1,17 @@
+{
+  "alert": {
+    "default": [
+      {
+        "identifier": "children",
+        "description": "Alert类型",
+        "type": "any",
+        "required": true
+      },
+      {
+        "identifier": "kind",
+        "type": "\"info\" | \"positive\" | \"negative\" | \"warning\"",
+        "default": "info"
+      }
+    ]
+  }
+}
